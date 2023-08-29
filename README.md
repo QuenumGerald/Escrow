@@ -47,13 +47,11 @@
 
 ## How to Use
 
-1. Deploy the smart contract on the Ethereum network.
-2. Sellers can create new transactions by calling `createTransaction`.
-3. Buyers can confirm purchases by calling `confirmPurchase` and sending the required Ether.
-4. Once the goods or services are received, buyers confirm by calling `confirmReceived`.
-5. Transactions can be cancelled by calling `cancelTransaction` if they are still in the 'Created' state.
+1. Sellers can create new transactions by calling `createTransaction`.
+2. Buyers can confirm purchases by calling `confirmPurchase` and sending the required Ether.
+3. Once the goods or services are received, buyers confirm by calling `confirmReceived`.
+4. Transactions can be cancelled by calling `cancelTransaction` if they are still in the 'Created' state.
 
 ## Requirements
 
 - Solidity ^0.8.0
-- Ethereum compatible wallet
